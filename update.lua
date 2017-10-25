@@ -32,7 +32,7 @@ function DownloadFromGitHub(RepoName,Branch,FileAddress)
 end
 
 function DownloadFromOCS(FileAddress)
-    return DownloadFromGitHub("forhuan/OPS","master",FileAddress)
+    return DownloadFromGitHub("forhuan/OCS","master",FileAddress)
 end
 
 function WriteStringToFile(StringValue,FileName,IsAppend)
